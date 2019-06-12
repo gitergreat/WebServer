@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="image-theme" stylesheets="beautify.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="serverui.logincontroller">
+   <children>
+      <Button layoutX="161.0" layoutY="315.0" mnemonicParsing="false" onAction="#sign_gotomainpage" prefHeight="30.0" prefWidth="80.0" styleClass="btn-basic,green-theme,btn-radius-normal" text="登录" />
+      <Button layoutX="291.0" layoutY="315.0" mnemonicParsing="false" onAction="#relogin" styleClass="btn-basic,green-theme,btn-radius-normal" text="重新登录" />
+      <Label layoutX="132.0" layoutY="258.0" prefHeight="37.0" prefWidth="99.0" styleClass="font-title" text="password" />
+      <PasswordField fx:id="password" layoutX="273.0" layoutY="260.0" styleClass="input-group" />
+      <TextField fx:id="username" layoutX="273.0" layoutY="200.0" styleClass="input-group" />
+      <TextField fx:id="ipaddr" layoutX="273.0" layoutY="132.0" styleClass="input-group" />
+      <Label layoutX="132.0" layoutY="130.0" prefHeight="37.0" prefWidth="117.0" styleClass="font-title" text="ip address" />
+      <Label layoutX="132.0" layoutY="198.0" prefHeight="36.0" prefWidth="109.0" styleClass="font-title" text="username" />
+      <Label layoutX="68.0" layoutY="26.0" text="使用Powehi来&#10;管理您的服务器" textOverrun="CLIP">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

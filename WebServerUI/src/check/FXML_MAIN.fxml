@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0"
+            xmlns:fx="http://javafx.com/fxml" fx:controller="check.MainController">
+    <children>
+        <Hyperlink layoutX="86.0" layoutY="111.0" text="退出登录！" onAction="#OUT_M">
+            <font>
+                <Font size="45.0" />
+            </font>
+        </Hyperlink>
+    </children>
+</AnchorPane>
+

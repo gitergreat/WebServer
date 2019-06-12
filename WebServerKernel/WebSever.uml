@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="651.0" y="1090.0">com</node>
+    <node x="900.0" y="1015.0">netscape</node>
+    <node x="0.0" y="1165.0">sun</node>
+    <node x="493.0" y="1015.0">groovyjarjarasm</node>
+    <node x="804.0" y="1090.0">java</node>
+    <node x="494.0" y="1090.0">javax</node>
+    <node x="541.0" y="423.0">Auth</node>
+    <node x="586.0" y="0.0">HttpServer</node>
+    <node x="333.0" y="1090.0">javafx</node>
+    <node x="281.0" y="777.0">Verify</node>
+    <node x="169.0" y="1090.0">oracle</node>
+    <node x="954.0" y="1090.0">org</node>
+    <node x="812.0" y="423.0">ELogFunction</node>
+    <node x="0.0" y="777.0">MyFileReader</node>
+    <node x="0.0" y="423.0">Request</node>
+    <node x="714.0" y="1015.0">META-INF</node>
+    <node x="148.0" y="1165.0">jdk</node>
+    <node x="0.0" y="0.0">Response</node>
+    <node x="0.0" y="1090.0">groovy</node>
+    <node x="289.0" y="423.0">LogFunction</node>
+    <node x="0.0" y="1015.0">groovyjarjarcommonscli</node>
+    <node x="268.0" y="1015.0">groovyjarjarantlr</node>
+    <node x="784.0" y="777.0">Main</node>
+    <node x="280.0" y="0.0">Counting</node>
+    <node x="490.0" y="777.0">MD5</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="275.5" y="457.5" />
+  <SelectedNodes>
+    <node>com</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

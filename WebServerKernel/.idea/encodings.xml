@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/src/Auth.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Counting.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/ELogFunction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/HttpServer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/LogFunction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Main.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/MyFileReader.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Request.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Response.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Verify.java" charset="GBK" />
+  </component>
+</project>

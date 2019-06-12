@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Powehi.jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Powehi_jar</output-path>
+    <root id="archive" name="serverUI程序.jar">
+      <element id="module-output" name="serverUI程序" />
+      <element id="extracted-dir" path="D:/goole chrome/jsch-0.1.55.jar" path-in-jar="/" />
+      <element id="library" level="project" name="jsch-0.1.55" />
+    </root>
+  </artifact>
+</component>

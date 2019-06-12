@@ -1,0 +1,1269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Powehi.jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serverui/maincontroller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5211">
+              <caret line="212" column="21" selection-start-line="212" selection-start-column="21" selection-end-line="212" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#initialize#0;class#maincontroller#0" />
+                <element signature="method#loadLayout#0;class#maincontroller#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serverui/logincontroller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1593">
+              <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serverui/progentrance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="999">
+              <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serverui/fxmldir/beautify.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serverprog/md5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serverprog/createSFTPChannel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serverprog/serverconfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/serverui">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>serverui</OriginalElement>
+              <nodes>
+                <node x="47.65401785714286" y="108.0">serverui.logincontroller</node>
+                <node x="281.0699404761905" y="0.0">serverui.setApp</node>
+                <node x="132.32118055555557" y="542.0">serverui.maincontroller</node>
+                <node x="43.00744047619048" y="320.0">serverui.progentrance</node>
+                <node x="568.0699404761905" y="0.0">serverui.fxmldir</node>
+                <node x="0.0" y="0.0">serverui.Readfile</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="serverui.progentrance" target="serverui.logincontroller">
+                  <point x="-77.0" y="-81.0" />
+                  <point x="158.50744047619048" y="295.0" />
+                  <point x="167.27901785714286" y="295.0" />
+                  <point x="-39.875" y="81.0" />
+                </edge>
+                <edge source="serverui.logincontroller" target="serverui.Readfile">
+                  <point x="0.0" y="-81.0" />
+                  <point x="207.15401785714286" y="83.0" />
+                  <point x="179.16666666666669" y="83.0" />
+                  <point x="71.66666666666669" y="29.0" />
+                </edge>
+                <edge source="serverui.maincontroller" target="serverui.setApp">
+                  <point x="86.28571428571433" y="-133.0" />
+                  <point x="369.6068948412699" y="512.0" />
+                  <point x="445.05034722222223" y="512.0" />
+                  <point x="445.05034722222223" y="83.0" />
+                  <point x="432.3199404761905" y="83.0" />
+                  <point x="30.25" y="29.0" />
+                </edge>
+                <edge source="serverui.maincontroller" target="serverui.progentrance">
+                  <point x="-86.28571428571422" y="-133.0" />
+                  <point x="197.03546626984135" y="512.0" />
+                  <point x="91.13244047619048" y="512.0" />
+                  <point x="-144.375" y="81.0" />
+                </edge>
+                <edge source="serverui.progentrance" target="serverui.maincontroller">
+                  <point x="144.375" y="81.0" />
+                  <point x="379.8824404761905" y="502.0" />
+                  <point x="326.46403769841265" y="502.0" />
+                  <point x="43.14285714285711" y="-133.0" />
+                </edge>
+                <edge source="serverui.setApp" target="serverui.progentrance">
+                  <point x="-30.25" y="29.0" />
+                  <point x="371.8199404761905" y="83.0" />
+                  <point x="383.8333333333333" y="83.0" />
+                  <point x="383.8333333333333" y="295.0" />
+                  <point x="389.5074404761905" y="295.0" />
+                  <point x="154.0" y="-81.0" />
+                </edge>
+                <edge source="serverui.maincontroller" target="serverui.Readfile">
+                  <point x="-129.4285714285714" y="-133.0" />
+                  <point x="153.89260912698418" y="522.0" />
+                  <point x="29.06994047619048" y="522.0" />
+                  <point x="29.06994047619048" y="83.0" />
+                  <point x="35.833333333333314" y="83.0" />
+                  <point x="-71.66666666666669" y="29.0" />
+                </edge>
+                <edge source="serverui.logincontroller" target="serverui.progentrance">
+                  <point x="119.625" y="81.0" />
+                  <point x="326.7790178571429" y="295.0" />
+                  <point x="312.5074404761905" y="295.0" />
+                  <point x="77.0" y="-81.0" />
+                </edge>
+                <edge source="serverui.logincontroller" target="serverui.setApp">
+                  <point x="106.33333333333331" y="-81.0" />
+                  <point x="313.48735119047615" y="83.0" />
+                  <point x="311.3199404761905" y="83.0" />
+                  <point x="-90.75" y="29.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.9219758064516129" x="267.52088344631534" y="329.607478679204" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Inner Classes</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/servercontrol/serverconfig.java" />
+        <option value="$PROJECT_DIR$/src/sample/calmd5.java" />
+        <option value="$PROJECT_DIR$/src/sample/mainprog.java" />
+        <option value="$PROJECT_DIR$/src/sample/createSFTPChannel.java" />
+        <option value="$PROJECT_DIR$/src/sample/operator.fxml" />
+        <option value="$PROJECT_DIR$/src/servercontrol/MainController.java" />
+        <option value="$PROJECT_DIR$/src/servercontrol/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/check/check.java" />
+        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/controller.java" />
+        <option value="$PROJECT_DIR$/src/servercontrol/FXML_LOGIN.fxml" />
+        <option value="$PROJECT_DIR$/src/servercontrol/FXML_MAIN.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/scontroller.java" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/serverui/setApp.java" />
+        <option value="$PROJECT_DIR$/src/week14/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/week14/MAIN.java" />
+        <option value="$PROJECT_DIR$/src/week14/controller.java" />
+        <option value="$PROJECT_DIR$/src/servercontrol/controller.java" />
+        <option value="$PROJECT_DIR$/src/servercontrol/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/servercontrol/FXMLTest.java" />
+        <option value="$PROJECT_DIR$/src/MAIN/FXMLTest.java" />
+        <option value="$PROJECT_DIR$/src/MAIN/MAIN.java" />
+        <option value="$PROJECT_DIR$/contact.txt" />
+        <option value="$PROJECT_DIR$/src/MAIN/FileReader.java" />
+        <option value="$PROJECT_DIR$/src/MAIN/Search.java" />
+        <option value="$PROJECT_DIR$/src/MAIN/controller.java" />
+        <option value="$PROJECT_DIR$/src/serverprog/authority.java" />
+        <option value="$PROJECT_DIR$/src/serverprog/transferingMonitor.java" />
+        <option value="$PROJECT_DIR$/src/serverprog/createSFTPChannel.java" />
+        <option value="$PROJECT_DIR$/src/serverprog/uploadfile.java" />
+        <option value="$PROJECT_DIR$/src/dsa.java" />
+        <option value="$PROJECT_DIR$/src/ngv.java" />
+        <option value="$PROJECT_DIR$/src/serverui/ngv.java" />
+        <option value="$PROJECT_DIR$/src/serverui/Readfile.java" />
+        <option value="$PROJECT_DIR$/src/serverui/dasd.java" />
+        <option value="$PROJECT_DIR$/src/serverprog/dasd.java" />
+        <option value="$PROJECT_DIR$/src/serverprog/calmd5.java" />
+        <option value="$PROJECT_DIR$/src/serverui/fxmldir/loginPAGE.css" />
+        <option value="$PROJECT_DIR$/src/serverui/fxmldir/LOGINPAGE.fxml" />
+        <option value="$PROJECT_DIR$/statics.log" />
+        <option value="$PROJECT_DIR$/src/serverui/logincontroller.java" />
+        <option value="$PROJECT_DIR$/src/serverui/fxmldir/beautify.css" />
+        <option value="$PROJECT_DIR$/src/serverui/fxmldir/MAINPAGE.fxml" />
+        <option value="$PROJECT_DIR$/src/serverui/progentrance.java" />
+        <option value="$PROJECT_DIR$/src/serverui/maincontroller.java" />
+        <option value="$PROJECT_DIR$/src/serverprog/serverconfig.java" />
+        <option value="$PROJECT_DIR$/src/serverprog/md5.java" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="serverUI程序" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serverUI程序" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serverUI程序" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serverUI程序" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serverUI程序" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serverUI程序" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="serverprog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serverUI程序" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serverUI程序" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="serverui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serverUI程序" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serverUI程序" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="serverui" type="462c0819:PsiDirectoryNode" />
+              <item name="fxmldir" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/serverui/fxmldir" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVA INTELLIJ IDEA\serverUI程序\src\check" />
+      <recent name="D:\JAVA INTELLIJ IDEA\serverUI程序\src\MAIN" />
+      <recent name="D:\JAVA INTELLIJ IDEA\serverUI程序\src\servercontrol" />
+      <recent name="D:\JAVA INTELLIJ IDEA\serverUI程序\src\serverui\fxmldir" />
+      <recent name="D:\JAVA INTELLIJ IDEA\serverUI程序\src\serverui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA INTELLIJ IDEA\serverUI程序\src\serverui\fxmldir" />
+      <recent name="D:\JAVA INTELLIJ IDEA\程序\serverUI程序\src\servercontrol" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="应用程序.progentrance">
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MAIN (1)" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MAIN.MAIN" />
+      <module name="serverUI程序" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MAIN.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaFxApplication" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration name="dasd" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serverprog.dasd" />
+      <module name="serverUI程序" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MAIN.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dsa" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa" />
+      <module name="serverUI程序" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ngv" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serverui.ngv" />
+      <module name="serverUI程序" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="progentrance" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serverui.progentrance" />
+      <module name="serverUI程序" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="应用程序.progentrance" />
+      <item itemvalue="应用程序.MAIN (1)" />
+      <item itemvalue="应用程序.dsa" />
+      <item itemvalue="应用程序.ngv" />
+      <item itemvalue="应用程序.dasd" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.progentrance" />
+        <item itemvalue="应用程序.dasd" />
+        <item itemvalue="应用程序.ngv" />
+        <item itemvalue="应用程序.dsa" />
+        <item itemvalue="应用程序.MAIN (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1558876142192" duration="5739000" />
+      <workItem from="1558943366470" duration="796000" />
+      <workItem from="1558964112528" duration="4687000" />
+      <workItem from="1559022626826" duration="7313000" />
+      <workItem from="1559039025790" duration="3127000" />
+      <workItem from="1559128193610" duration="9334000" />
+      <workItem from="1559271174478" duration="11249000" />
+      <workItem from="1559302076459" duration="5294000" />
+      <workItem from="1559397098640" duration="4234000" />
+      <workItem from="1559441918299" duration="12285000" />
+      <workItem from="1559544756215" duration="2046000" />
+      <workItem from="1559559556335" duration="171000" />
+      <workItem from="1559637986434" duration="538000" />
+      <workItem from="1559638569511" duration="4022000" />
+      <workItem from="1559734037715" duration="2442000" />
+      <workItem from="1559736583083" duration="5980000" />
+      <workItem from="1559903500454" duration="10723000" />
+      <workItem from="1559914972789" duration="31000" />
+      <workItem from="1559992835241" duration="250000" />
+      <workItem from="1559993130138" duration="4297000" />
+      <workItem from="1560000995819" duration="1776000" />
+      <workItem from="1560049227844" duration="1195000" />
+      <workItem from="1560080372750" duration="2865000" />
+      <workItem from="1560083266496" duration="9341000" />
+      <workItem from="1560093902861" duration="3136000" />
+      <workItem from="1560130613599" duration="2427000" />
+      <workItem from="1560178403860" duration="996000" />
+      <workItem from="1560179478003" duration="918000" />
+      <workItem from="1560180938412" duration="599000" />
+      <workItem from="1560215013557" duration="2416000" />
+      <workItem from="1560238977771" duration="314000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="121843000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.3697706" />
+      <window_info id="Structure" order="1" weight="0.2537112" />
+      <window_info id="Favorites" order="2" weight="0.3299595" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="设计师" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32962447" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" weight="0.329927" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="消息" order="15" weight="0.329927" />
+      <window_info anchor="bottom" id="运行" order="16" weight="0.19854015" />
+      <window_info anchor="bottom" id="找到" order="17" weight="0.329927" />
+      <window_info anchor="bottom" id="Database Changes" order="18" />
+      <window_info anchor="bottom" id="Terminal" order="19" weight="0.329927" />
+      <window_info anchor="bottom" id="调试" order="20" weight="0.329927" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3299595" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="控制板" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.32793522" />
+      <window_info id="Structure" order="1" weight="0.2537112" />
+      <window_info id="Favorites" order="2" weight="0.3299595" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="设计师" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32962447" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" weight="0.329927" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="消息" order="15" weight="0.329927" />
+      <window_info active="true" anchor="bottom" id="运行" order="16" visible="true" weight="0.24379562" />
+      <window_info anchor="bottom" id="找到" order="17" weight="0.329927" />
+      <window_info anchor="bottom" id="Database Changes" order="18" />
+      <window_info anchor="bottom" id="Terminal" order="19" weight="0.329927" />
+      <window_info anchor="bottom" id="调试" order="20" weight="0.329927" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="控制板" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/serverui/maincontroller.java</url>
+          <line>65</line>
+          <properties class="serverui.maincontroller" method="choosefile">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/serverui/maincontroller.java</url>
+          <line>239</line>
+          <properties class="serverui.maincontroller" method="exittheserver">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/serverui/maincontroller.java</url>
+          <line>203</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/serverui/maincontroller.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="gropu" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>gropu</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/beans/property/StringPropertyBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+          <folding>
+            <element signature="e#2583#2584#0" expanded="true" />
+            <element signature="e#2645#2646#0" expanded="true" />
+            <element signature="e#3875#3876#0" expanded="true" />
+            <element signature="e#3916#3917#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/stage/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="955" selection-start-line="955" selection-end-line="955" />
+          <folding>
+            <element signature="e#34558#34559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/stage/Stage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="259" selection-start-line="259" selection-end-line="259" />
+          <folding>
+            <element signature="e#8302#8303#0" expanded="true" />
+            <element signature="e#25545#25546#0" expanded="true" />
+            <element signature="e#25587#25588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="1335" selection-start-line="1335" selection-end-line="1335" />
+          <folding>
+            <element signature="e#52271#52272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="3666" selection-start-line="3666" selection-end-line="3666" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="207" selection-start-line="207" selection-end-line="207" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/control/TextInputControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="347" column="35" selection-start-line="347" selection-start-column="35" selection-end-line="347" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/control/TextField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="e#3212#3213#0" expanded="true" />
+            <element signature="e#3264#3265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="406" selection-start-line="406" selection-end-line="406" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/goole chrome/css3-simple-icon-menu/css3-simple-icon-menu/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/src/serverui/fxmldir/LOGINPAGE.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="109" selection-start-line="9" selection-start-column="109" selection-end-line="9" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverui/fxmldir/j.gif" />
+    <entry file="file://$PROJECT_DIR$/src/serverui/fxmldir/jjj.gif" />
+    <entry file="file://$PROJECT_DIR$/src/serverui/fxmldir/jj.gif" />
+    <entry file="file://$PROJECT_DIR$/contact.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.txt.md5">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverUI程序.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/access.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contac_txt.md5">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ip_address.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11988">
+          <caret line="507" selection-start-line="507" selection-end-line="507" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/BufferedInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12150">
+          <caret line="477" selection-start-line="477" selection-end-line="477" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18684">
+          <caret line="747" column="19" selection-start-line="747" selection-start-column="19" selection-end-line="747" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="2502" lean-forward="true" selection-start-line="2502" selection-end-line="2502" />
+          <folding>
+            <element signature="e#66572#66573#0" expanded="true" />
+            <element signature="e#66618#66619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="1657" selection-start-line="1657" selection-end-line="1657" />
+          <folding>
+            <element signature="e#66921#66922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/event/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="8411" selection-start-line="8411" selection-end-line="8411" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/control/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/goole chrome/jsch-0.1.55.jar!/com/jcraft/jsch/Session.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="713" selection-start-line="713" selection-end-line="713" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverui/fxmldir/da.gif" />
+    <entry file="file://$PROJECT_DIR$/src/serverui/fxmldir/ee.gif" />
+    <entry file="file://$PROJECT_DIR$/src/serverui/fxmldir/gg.gif" />
+    <entry file="file://$PROJECT_DIR$/src/serverui/fxmldir/bj.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverui/Readfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuser.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverui/fxmldir/MAINPAGE.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="114" column="32" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverprog/authority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverprog/uploadfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverui/maincontroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5211">
+          <caret line="212" column="21" selection-start-line="212" selection-start-column="21" selection-end-line="212" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initialize#0;class#maincontroller#0" />
+            <element signature="method#loadLayout#0;class#maincontroller#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverui/logincontroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1593">
+          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverui/progentrance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverui/fxmldir/beautify.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverprog/md5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverprog/createSFTPChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverprog/serverconfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/serverui">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>serverui</OriginalElement>
+          <nodes>
+            <node x="47.65401785714286" y="108.0">serverui.logincontroller</node>
+            <node x="281.0699404761905" y="0.0">serverui.setApp</node>
+            <node x="132.32118055555557" y="542.0">serverui.maincontroller</node>
+            <node x="43.00744047619048" y="320.0">serverui.progentrance</node>
+            <node x="568.0699404761905" y="0.0">serverui.fxmldir</node>
+            <node x="0.0" y="0.0">serverui.Readfile</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="serverui.progentrance" target="serverui.logincontroller">
+              <point x="-77.0" y="-81.0" />
+              <point x="158.50744047619048" y="295.0" />
+              <point x="167.27901785714286" y="295.0" />
+              <point x="-39.875" y="81.0" />
+            </edge>
+            <edge source="serverui.logincontroller" target="serverui.Readfile">
+              <point x="0.0" y="-81.0" />
+              <point x="207.15401785714286" y="83.0" />
+              <point x="179.16666666666669" y="83.0" />
+              <point x="71.66666666666669" y="29.0" />
+            </edge>
+            <edge source="serverui.maincontroller" target="serverui.setApp">
+              <point x="86.28571428571433" y="-133.0" />
+              <point x="369.6068948412699" y="512.0" />
+              <point x="445.05034722222223" y="512.0" />
+              <point x="445.05034722222223" y="83.0" />
+              <point x="432.3199404761905" y="83.0" />
+              <point x="30.25" y="29.0" />
+            </edge>
+            <edge source="serverui.maincontroller" target="serverui.progentrance">
+              <point x="-86.28571428571422" y="-133.0" />
+              <point x="197.03546626984135" y="512.0" />
+              <point x="91.13244047619048" y="512.0" />
+              <point x="-144.375" y="81.0" />
+            </edge>
+            <edge source="serverui.progentrance" target="serverui.maincontroller">
+              <point x="144.375" y="81.0" />
+              <point x="379.8824404761905" y="502.0" />
+              <point x="326.46403769841265" y="502.0" />
+              <point x="43.14285714285711" y="-133.0" />
+            </edge>
+            <edge source="serverui.setApp" target="serverui.progentrance">
+              <point x="-30.25" y="29.0" />
+              <point x="371.8199404761905" y="83.0" />
+              <point x="383.8333333333333" y="83.0" />
+              <point x="383.8333333333333" y="295.0" />
+              <point x="389.5074404761905" y="295.0" />
+              <point x="154.0" y="-81.0" />
+            </edge>
+            <edge source="serverui.maincontroller" target="serverui.Readfile">
+              <point x="-129.4285714285714" y="-133.0" />
+              <point x="153.89260912698418" y="522.0" />
+              <point x="29.06994047619048" y="522.0" />
+              <point x="29.06994047619048" y="83.0" />
+              <point x="35.833333333333314" y="83.0" />
+              <point x="-71.66666666666669" y="29.0" />
+            </edge>
+            <edge source="serverui.logincontroller" target="serverui.progentrance">
+              <point x="119.625" y="81.0" />
+              <point x="326.7790178571429" y="295.0" />
+              <point x="312.5074404761905" y="295.0" />
+              <point x="77.0" y="-81.0" />
+            </edge>
+            <edge source="serverui.logincontroller" target="serverui.setApp">
+              <point x="106.33333333333331" y="-81.0" />
+              <point x="313.48735119047615" y="83.0" />
+              <point x="311.3199404761905" y="83.0" />
+              <point x="-90.75" y="29.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9219758064516129" x="267.52088344631534" y="329.607478679204" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Inner Classes</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Powehi.jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>serverUI程序</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jsch-0.1.55</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,110 @@
+/* 以下样式不用修改 开始*/
+    /* 默认ul 无需修改 */
+    .nav_menustyle_1_1 ul
+    {
+        list-style-type:none;
+        padding:0px; 
+        margin:0px;}
+    /* 默认li 无需修改 */
+    .nav_menustyle_1_1 li
+    {
+        float:left;
+        text-align:center;
+        position:relative;}
+    /* 2级以上 li 无需修改 */
+    .nav_menustyle_1_1 ul li ul li
+    {
+        float:none;
+        z-index:100;}
+    /* 3级以上默认ul 无需修改 */
+    .nav_menustyle_1_1 ul li ul li ul
+    {
+        left:100%;
+        top:0px;}
+    /* IE6下的table样式 无需修改 */
+    .nav_menustyle_1_1 table 
+    {
+        position:absolute; 
+        left:0px;
+        border-collapse:collapse; 
+        border-spacing:0; 
+        z-index:100;}   
+    .nav_menustyle_1_1 table table
+    {
+        top:0px;}
+    .nav_menustyle_1_1 td 
+    {
+        padding: 0;}   
+    /* 共6级导航子菜单打开关闭控制 无需修改 */
+    .nav_menustyle_1_1 li ul,
+    .nav_menustyle_1_1 li:hover ul li ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul li ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul li:hover ul li ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul li:hover ul li:hover ul li ul
+    {
+        display:none;}
+    .nav_menustyle_1_1 li a:hover ul li ul,
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul li ul,
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul li a:hover ul li ul,
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul li a:hover ul li a:hover ul li ul
+    {
+        visibility:hidden;}
+    .nav_menustyle_1_1 li a:hover ul,
+    .nav_menustyle_1_1 li:hover ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul li:hover ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul li:hover ul li:hover ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul li:hover ul li:hover ul li:hover ul    
+    {
+        display:block;
+        position:absolute;}
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul,
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul li a:hover ul,
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul li a:hover ul li a:hover ul,
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul li a:hover ul li a:hover ul li a:hover ul
+    {
+        visibility:visible;}
+    /* 默认a属性 无需修改 */
+    .nav_menustyle_1_1 a
+    {
+        display:block;
+        text-decoration:none;
+        white-space:nowrap;}
+/* 以上样式不用修改 结束*/
+/* 默认链接样式 可以修改默认的 字体、颜色、宽度、高度、背景色、边框等*/
+.nav_menustyle_1_1 a
+{
+    width:90px;         /*菜单宽度*/
+    height:25px;        /*菜单高度*/
+    line-height:25px;   /*字体高度, 可设为菜单高度*/
+    font-size:14px;     /*字体大小*/
+    color:#000;         /*字体颜色*/
+    background:#eeeeee; /*背景色*/
+    border:1px solid #fff;  /*边框颜色*/
+    border-width:0px 1px 1px 0px;}
+/* 默认hover链接样式 可以设置默认的鼠标移上样式 */
+.nav_menustyle_1_1 a:hover
+{
+    color:#fff; /*鼠标移上颜色*/
+    background:#2687eb;}
+/* IE6兼容性代码，在IE6下起效， 必须根据菜单高宽进行设定 */
+.nav_menustyle_1_1 table 
+{
+    top:26px;}   
+.nav_menustyle_1_1 table table
+{
+    left:91px;}   
+/* 2级以上链接样式 可以修改2级以上菜单的 字体、颜色、宽度、高度、背景色、边框等*/
+.nav_menustyle_1_1 ul li ul li a
+{}
+/* 2级以上hover链接样式 可以修改2级以上菜单的鼠标移上样式*/
+.nav_menustyle_1_1 ul li ul li a:hover
+{}
+/* 3级以上链接样式 可以修改3级以上菜单的 字体、颜色、宽度、高度、背景色、边框等*/
+.nav_menustyle_1_1 ul li ul li ul li a
+{}
+/* 3级以上hover链接样式 可以修改3级以上菜单的鼠标移上样式*/
+.nav_menustyle_1_1 ul li ul li ul li a:hover
+{}
+
+#wapbtn{display:block;padding:10px 0px;background-color:#414141;color:#ffffff;text-align:center;}

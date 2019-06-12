@@ -1,0 +1,82 @@
+WebServer initializing...
+Connection established...
+method:GET
+thread:8
+请求的文件:JWC.html
+Connection established...
+method:GET
+thread:9
+请求的文件:JWC.html
+Connection established...
+method:GET
+thread:10
+请求的文件:JWC.html
+WebServer initializing...
+Connection established...
+method:GET
+thread:8
+请求的文件:JWC.html
+Connection established...
+method:GET
+thread:9
+请求的文件:favicon.ico
+Connection established...
+method:GET
+检验文件不存在!
+Can not transfer the file! The file may be tampered !
+thread:10
+请求的文件:index.html
+Verify file failed! Stop transfering!
+Connection established...
+method:
+java.lang.NullPointerException
+	at Request.getFileName(Request.java:44)
+	at HttpServer.run(HttpServer.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+Connection established...
+method:GET
+thread:12
+请求的文件:JWC.html
+java.net.SocketException: Broken pipe (Write failed)
+Connection established...
+method:GET
+检验文件不存在!
+Can not transfer the file! The file may be tampered !
+thread:13
+请求的文件:index.html
+Verify file failed! Stop transfering!
+Connection established...
+method:GET
+thread:14
+请求的文件:favicon.ico
+Connection established...
+method:GET
+thread:15
+请求的文件:JWC.html
+Connection established...
+Connection established...
+method:GET
+检验文件不存在!
+Can not transfer the file! The file may be tampered !
+thread:17
+请求的文件:index.html
+Verify file failed! Stop transfering!
+Connection established...
+method:GET
+thread:18
+请求的文件:favicon.ico
+method:
+java.lang.NullPointerException
+	at Request.getFileName(Request.java:44)
+	at HttpServer.run(HttpServer.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+Connection established...
+method:GET
+thread:19
+请求的文件:JWC.html
+Connection established...
+method:
+java.lang.NullPointerException
+	at Request.getFileName(Request.java:44)
+	at HttpServer.run(HttpServer.java:56)
+	at java.lang.Thread.run(Thread.java:748)

@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="webkit" name="renderer" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1"/>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <title>四川大学教务处</title>
+    <link rel="stylesheet" href="http://jwc.scu.edu.cn/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://jwc.scu.edu.cn/css/style.css">
+
+    <link rel="stylesheet" href="http://jwc.scu.edu.cn/css/base.css">
+    <script src="http://jwc.scu.edu.cn/js/jquery-1.8.3.min.js"></script>
+    <script src="http://jwc.scu.edu.cn/js/jquery-ui-1.10.3.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="http://cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+    <script type="text/javascript" src="http://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<style>
+.list-ll-b{height:915px;}
+.list-llb-box{height:757px;}
+.list-lla-sub{height:445px;}
+.list-llb-s:before{
+display:none;
+}
+.list-lla-href{position: relative;}
+.list-lla-href:hover>.list-boxs-sub{display:block;}
+.list-boxs-sub{display:none;position: absolute;left: 0;top: 0;z-index: 10;padding:12px 8px;width:100%;height:auto;overflow:hidden;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;background: rgba(186, 42, 23, 0.75);}
+.list-boxs-sub>a{padding:10px 0;display:block;float:left;width:100%;font-size:14px;color:#ffffff;line-height:22px;height:auto;border-bottom:1px solid #ffffff;text-align: center;font-weight: bold;}
+</style>
+</head>
+<body>
+<!--顶部导航-->
+<div class="list-top">
+    <div class="list-main">
+        <div class="list-a-logo fl"><a href="http://jwc.scu.edu.cn/index.htm"><img src="http://jwc.scu.edu.cn/images/logo-1.png" alt=""></a></div>
+        <div class="list-a-search fr" style="position: relative;    overflow: visible;">
+<a class="jbrk-hre" target="_blank" href="http://202.115.35.33">旧版入口</a>
+            <form class="form-inline pull-right" role="form" method="get" id="search" name="search">
+                <input type="text" name="keywords" id="search-text">
+                <button type="button" class="btn btn-warning" onclick="onmysearch();"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <script>
+        //搜索
+        function onmysearch(){
+            var search = $("#search-text").val();
+           
+            if(search != null){
+                $("#serach_div").hide();
+                $("#banner").hide();
+                $('#iframename0').show();
+                $('#iframename0').attr('src','http://jwc.scu.edu.cn/servlet/search.do?pageSize=80000&keywords='+search);
+            };
+        };
+$(document).keydown(function(event){
+var keyNumber=event.keyCode||event.which; //获取键盘按键数字
+if(keyNumber == 13 || keyNumber == 10) {
+//要执行的操作
+onmysearch();
+return false;
+}
+});
+    </script>
+    <div class="edit_option" style="height:auto;">
+        <div class="edit_cz"><a href="javascript:void(0)" onclick="parent.edit('NAV','001')">编辑</a> </div>
+<!--导航开始-->
+<div class="nav_a">
+    <div class="nav_b">
+        <div class="nav_c_index"><a href="http://jwc.scu.edu.cn/index.htm">首页</a></div>
+        <div class="nav_c_page">
+            <ul class="nav_d">
+                                    <li class="nav_e_main">
+                                                <a class="nav_f_title" href="http://jwc.scu.edu.cn/article/85/85_1.htm" target="_self"  >
+                                                部门介绍
+                                                </a>
+                                            <div class="nav_f_main">
+                                                <ul class="nav_d">
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/161/161_1.htm" target="_self">教务处简介</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/96/96_1.htm" target="_self">机构设置</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/97/97_1.htm" target="_self">联系我们</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/98/98_1.htm" target="_self">办事指南</a>
+                                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                    </li>
+                                    <li class="nav_e_main">
+                                                <a class="nav_f_title" href="http://jwc.scu.edu.cn/article/94/94_1.htm" target="_self"  >
+                                                教师发展
+                                                </a>
+                                            <div class="nav_f_main">
+                                                <ul class="nav_d">
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/162/162_1.htm" target="_self">教师服务</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/163/163_1.htm" target="_self">全国高等教育服务</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/164/164_1.htm" target="_self">教学奖励</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/165/165_1.htm" target="_self">助教服务</a>
+                                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                    </li>
+                                    <li class="nav_e_main">
+                                                <a class="nav_f_title" href="http://jwc.scu.edu.cn/article/95/95_1.htm" target="_self"  >
+                                                教研教改
+                                                </a>
+                                            <div class="nav_f_main">
+                                                <ul class="nav_d">
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/147/147_1.htm" target="_self">教学研究</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/149/149_1.htm" target="_self">教改项目</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/150/150_1.htm" target="_self">教学成果奖</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/151/151_1.htm" target="_self">人文大讲堂</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/152/152_1.htm" target="_self">本科教育创新大讲堂</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/153/153_1.htm" target="_self">教学指导委员会</a>
+                                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                    </li>
+                                    <li class="nav_e_main">
+                                                <a class="nav_f_title" href="http://jwc.scu.edu.cn/article/86/86_1.htm" target="_self"  >
+                                                人才培养
+                                                </a>
+                                            <div class="nav_f_main">
+                                                <ul class="nav_d">
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/100/100_1.htm" target="_self">培养方案</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/168/168_1.htm" target="_self">双学位</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/169/169_1.htm" target="_self">教授开放日</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/99/99_1.htm" target="_self">进修教师</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/101/101_1.htm" target="_self">课程建设</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/102/102_1.htm" target="_self">教材建设</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/103/103_1.htm" target="_self">专业建设</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/104/104_1.htm" target="_self">基础学科拔尖学生计划</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/105/105_1.htm" target="_self">卓越人才培养系列计划</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/106/106_1.htm" target="_self">吴玉章学院</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/166/166_1.htm" target="_self">双特生</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/167/167_1.htm" target="_self">推免研究生</a>
+                                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                    </li>
+                                    <li class="nav_e_main">
+                                                <a class="nav_f_title" href="http://jwc.scu.edu.cn/article/87/87_1.htm" target="_self"  >
+                                                实践教学
+                                                </a>
+                                            <div class="nav_f_main">
+                                                <ul class="nav_d">
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/107/107_1.htm" target="_self">大学生创新创业训练计划</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/109/109_1.htm" target="_self">学科竞赛</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/170/170_1.htm" target="_self">实习实训</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/171/171_1.htm" target="_self">“互联网+”大赛</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/198/198_1.htm" target="_self">实验教学</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/199/199_1.htm" target="_self">毕业论文（设计）</a>
+                                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                    </li>
+                                    <li class="nav_e_main">
+                                                <a class="nav_f_title" href="http://jwc.scu.edu.cn/article/88/88_1.htm" target="_self"  >
+                                                合作交流
+                                                </a>
+                                            <div class="nav_f_main">
+                                                <ul class="nav_d">
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/110/110_1.htm" target="_self">出国交流项目</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/111/111_1.htm" target="_self">港澳台交流项目</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/112/112_1.htm" target="_self">国内高校交流项目</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/204/204_1.htm" target="_self">其他</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/207/207_1.htm" target="_self">国际课程周</a>
+                                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                    </li>
+                                    <li class="nav_e_main">
+                                                <a class="nav_f_title" href="http://jwc.scu.edu.cn/article/89/89_1.htm" target="_self"  >
+                                                教学运行
+                                                </a>
+                                            <div class="nav_f_main">
+                                                <ul class="nav_d">
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/113/113_1.htm" target="_self">排课调课管理</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/114/114_1.htm" target="_self">选课管理</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/115/115_1.htm" target="_self">教室管理</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/116/116_1.htm" target="_self">考试管理</a>
+                                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                    </li>
+                                    <li class="nav_e_main">
+                                                <a class="nav_f_title" href="http://jwc.scu.edu.cn/article/90/90_1.htm" target="_self"  >
+                                                学籍管理
+                                                </a>
+                                            <div class="nav_f_main">
+                                                <ul class="nav_d">
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/120/120_1.htm" target="_self">规章制度</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/121/121_1.htm" target="_self">学籍异动</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/122/122_1.htm" target="_self">成绩管理</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/194/194_1.htm" target="_self">预警与帮扶</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/173/173_1.htm" target="_self">毕业与学位</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/174/174_1.htm" target="_self">其他事务</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/209/209_1.htm" target="_self">转专业</a>
+                                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                    </li>
+                                    <li class="nav_e_main">
+                                                <a class="nav_f_title" href="http://jwc.scu.edu.cn/article/188/188_1.htm" target="_self"  >
+                                                质量管理
+                                                </a>
+                                            <div class="nav_f_main">
+                                                <ul class="nav_d">
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/189/189_1.htm" target="_self">政策文件</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/190/190_1.htm" target="_self">教学检查</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/191/191_1.htm" target="_self">基层教学组织</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/192/192_1.htm" target="_self">教学奖励</a>
+                                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                    </li>
+                                    <li class="nav_e_main">
+                                                <a class="nav_f_title" href="http://jwc.scu.edu.cn/article/91/91_1.htm" target="_self"  >
+                                                信息公开
+                                                </a>
+                                            <div class="nav_f_main">
+                                                <ul class="nav_d">
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/123/123_1.htm" target="_self">专业设置</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/124/124_1.htm" target="_self">教学计划</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/126/126_1.htm" target="_self">课程简介</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/128/128_1.htm" target="_self">考试管理规定</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/131/131_1.htm" target="_self">奖励与处分</a>
+                                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                    </li>
+                                    <li class="nav_e_main">
+                                                <a class="nav_f_title" href="http://jwc.scu.edu.cn/article/179/179_1.htm" target="_self"  >
+                                                资料下载
+                                                </a>
+                                            <div class="nav_f_main">
+                                                <ul class="nav_d">
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/180/180_1.htm" target="_self">教师发展</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/181/181_1.htm" target="_self">教研教改</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/182/182_1.htm" target="_self">人才培养</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/183/183_1.htm" target="_self">实践教学</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/184/184_1.htm" target="_self">合作交流</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/185/185_1.htm" target="_self">教学运行</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/186/186_1.htm" target="_self">学籍管理</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/193/193_1.htm" target="_self">质量管理</a>
+                                                                    </li>
+
+                                                                    <li class="nav_h_title">
+                                                                        <a href="http://jwc.scu.edu.cn/article/208/208_1.htm" target="_self">考试管理</a>
+                                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                    </li>
+            </ul>
+        </div>
+    </div>
+    
+</div>
+<!--导航结束-->
+    </div>
+</div>
+<!--banner-->
+
+<!--页面内容-->
+<div class="list-main-content over-hidden" style="padding-top: 40px;margin-bottom: 75px" id="serach_div">
+
+        <div class="list-ll-a">
+<div class="list-llb-title" style="border-top: 2px #bd1e30 solid"><span class="fl">校历</span><span class="fr" id="zc"></span></div>
+            <div class="list-lla-sup">
+                <div id='schedule-box' class="boxshaw">
+                </div>
+            </div>
+            <div class="list-lla-sub">
+                <h5 class="list-lla-tit">学生服务</h5>
+                <dl class="list-lla-txt">
+                    <dd><a href="http://zhjw.scu.edu.cn" target="_blank"><i class="fa fa-user"></i>学生选课</a></dd>
+                    <dd><a href="http://zhjw.scu.edu.cn" target="_blank"><i class="fa fa-newspaper-o"></i>课表查询</a></dd>
+<dd><a href="http://jwc.scu.edu.cn/article/121/121_1.htm"><i class="fa fa-map-o" target="_blank"></i>学籍异动</a></dd>
+<dd><a href="http://cir.scu.edu.cn/cir/index.html" target="_blank"><i class="fa fa-cube"></i>教室查询</a></dd>
+<dd><a href="http://zhjw.scu.edu.cn" target="_blank"><i class="fa fa-mortar-board"></i>成绩查询</a></dd>
+<dd><a href="http://jwc.scu.edu.cn//article/169/169_1.htm" target="_blank"><i class="fa fa-address-card-o"></i>教授开放日</a></dd>
+<dd><a href="http://jwc.scu.edu.cn/article/99/99_1.htm" target="_blank"><i class="fa fa-address-card-o"></i>进修教师</a></dd>
+                </dl>
+            </div>
+<div class="img-bots">
+<h5>
+<a href="http://jwc.scu.edu.cn//article/157/157_1.htm"><img src="http://jwc.scu.edu.cn/images/lianjie.png"/></a>
+</h5>
+<h5>
+<a href="http://jwc.scu.edu.cn//article/197/197_1.htm"><img src="http://jwc.scu.edu.cn/images/party.png"/></a>
+</h5>
+</div>
+        </div>
+        <div class="list-ll-b">
+            <div class="edit_option">
+                <div class="edit_cz"><a href="javascript:void(0)" onclick="parent.edit('TZGG','02')">编辑</a> </div>
+    <h5 class="list-llb-title">
+    <span class="fl">通知公告</span>
+    <a class="fr" href="http://jwc.scu.edu.cn/article/178/178_1.htm">更多>></a>
+    </h5>
+    <div class="list-llb-box">
+    <ul class="list-llb-s">
+    <li class="list-llb-list" title=关于2019年清明节、劳动节、端午节放假本科教学安排有关事项的通知>
+
+     <!--置顶-->
+    <a target="_blank" href="http://jwc.scu.edu.cn/detail/113/6801.htm">
+    <span class="list-llb-text"><em style="font-style: normal;color:#bc0102">【置顶】</em>关于2019年清明节、劳动节、端午节放假本科教学安排有关事项的通知</span>
+<em class="fr list-date-a">[2019.03.26]</em>
+    </a>
+    </li>
+    <li class="list-llb-list" title=关于公示2019年四川大学本科生“双学位”奖学金推荐名单的通知>
+
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/168/6916.htm">
+    <span class="list-llb-text">关于公示2019年四川大学本科生“双学位”奖学金推荐名单的通知</span>
+<em class="fr list-date-a">[2019.06.02]</em>
+    </a>
+    </li>
+    <li class="list-llb-list" title=关于综合教务系统学生用户密码启用新规则的通知>
+
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/114/6915.htm">
+    <span class="list-llb-text">关于综合教务系统学生用户密码启用新规则的通知</span>
+<em class="fr list-date-a">[2019.05.31]</em>
+    </a>
+    </li>
+    <li class="list-llb-list" title=关于自助查询学生评教系统历史数据变更登录渠道的通知>
+
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/190/6913.htm">
+    <span class="list-llb-text">关于自助查询学生评教系统历史数据变更登录渠道的通知</span>
+<em class="fr list-date-a">[2019.05.30]</em>
+    </a>
+    </li>
+    <li class="list-llb-list" title=第五届四川大学“互联网+”大学生创新创业大赛网评结果公示和“不服来辩”活动通知>
+
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/171/6911.htm">
+    <span class="list-llb-text">第五届四川大学“互联网+”大学生创新创业大赛网评结果公示和“不服来辩”活动通知</span>
+<em class="fr list-date-a">[2019.05.29]</em>
+    </a>
+    </li>
+    <li class="list-llb-list" title=2019，学生评教，让我们一起变得更好！>
+
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/190/6910.htm">
+    <span class="list-llb-text">2019，学生评教，让我们一起变得更好！</span>
+<em class="fr list-date-a">[2019.05.29]</em>
+    </a>
+    </li>
+    <li class="list-llb-list" title=关于公示2019年本科转专业二次选拔学生名单的通知>
+
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/209/6909.htm">
+    <span class="list-llb-text">关于公示2019年本科转专业二次选拔学生名单的通知</span>
+<em class="fr list-date-a">[2019.05.29]</em>
+    </a>
+    </li>
+    <li class="list-llb-list" title=关于开展2019年秋季学期教材征订工作的通知>
+
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/102/6908.htm">
+    <span class="list-llb-text">关于开展2019年秋季学期教材征订工作的通知</span>
+<em class="fr list-date-a">[2019.05.28]</em>
+    </a>
+    </li>
+    <li class="list-llb-list" title=2019-2020-1学期课程选课安排>
+
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/114/6907.htm">
+    <span class="list-llb-text">2019-2020-1学期课程选课安排</span>
+<em class="fr list-date-a">[2019.05.28]</em>
+    </a>
+    </li>
+    <li class="list-llb-list" title=四川大学人文大讲堂第129讲>
+
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/151/6904.htm">
+    <span class="list-llb-text">四川大学人文大讲堂第129讲</span>
+<em class="fr list-date-a">[2019.05.27]</em>
+    </a>
+    </li>
+    <li class="list-llb-list" title=关于举办平安留学·高效学习·高端职业发展经验交流会的通知>
+
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/204/6902.htm">
+    <span class="list-llb-text">关于举办平安留学·高效学习·高端职业发展经验交流会的通知</span>
+<em class="fr list-date-a">[2019.05.27]</em>
+    </a>
+    </li>
+    <li class="list-llb-list" title=关于开展2019年四川大学大学数学竞赛的通知（第二轮）>
+
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/109/6901.htm">
+    <span class="list-llb-text">关于开展2019年四川大学大学数学竞赛的通知（第二轮）</span>
+<em class="fr list-date-a">[2019.05.23]</em>
+    </a>
+    </li>
+    <li class="list-llb-list" title=关于体质测试补测安排的紧急通知>
+
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/174/6900.htm">
+    <span class="list-llb-text">关于体质测试补测安排的紧急通知</span>
+<em class="fr list-date-a">[2019.05.23]</em>
+    </a>
+    </li>
+    <li class="list-llb-list" title=关于2018-2019学年春季学期网上登录成绩的通知>
+
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/122/6891.htm">
+    <span class="list-llb-text">关于2018-2019学年春季学期网上登录成绩的通知</span>
+<em class="fr list-date-a">[2019.05.22]</em>
+    </a>
+    </li>
+    <li class="list-llb-list" title=关于表彰2018年秋季学期优秀研究生助教的决定>
+
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/165/6895.htm">
+    <span class="list-llb-text">关于表彰2018年秋季学期优秀研究生助教的决定</span>
+<em class="fr list-date-a">[2019.05.22]</em>
+    </a>
+    </li>
+    <li class="list-llb-list" title=关于公示四川大学2019年“大学生创新创业训练计划”国家级、省级、校级项目名单的通知>
+
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/107/6897.htm">
+    <span class="list-llb-text">关于公示四川大学2019年“大学生创新创业训练计划”国家级、省级、校级项目名单的通知...</span>
+<em class="fr list-date-a">[2019.05.22]</em>
+    </a>
+    </li>
+    <li class="list-llb-list" title=四川大学教务处拟任科级干部任前公示>
+
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/100/6894.htm">
+    <span class="list-llb-text">四川大学教务处拟任科级干部任前公示</span>
+<em class="fr list-date-a">[2019.05.22]</em>
+    </a>
+    </li>
+    </ul></div>
+            </div>
+        </div>
+        <div class="list-ll-b">
+            <div class="edit_option">
+                <div class="edit_cz"><a href="javascript:void(0)" onclick="parent.edit('XWA','03')">编辑</a> </div>
+    <h5 class="list-llb-title">
+        <span class="fl">新闻报道</span>
+        <a class="fr" href="http://jwc.scu.edu.cn/article/159/159_1.htm">更多>></a>
+    </h5>
+            </div>
+                <div class="list-llb-box">
+                    <ul class="list-llc-one" id="Tab1">
+<!--最新的2两条新闻报道-->
+
+<!--最新的2两条新闻报道-->
+	<SCRIPT LANGUAGE="JavaScript">
+			//从服务最新的2两条新闻报道-->
+			var url = "http://jwc.scu.edu.cn:8081/queryXwListByLmid";
+			function loadJsonp(){				
+				$.ajax({ 
+					url:url,
+					dataType:'json',
+					jsonp:'callback',
+					data:{//发送给servlet的数据 
+						
+					},
+					async:false,
+					success: function(json){
+						var trHTML="";
+						var list = json.documents;
+						for(var i=0;i<list.length;i++){
+							trHTML=trHTML+"<li>";
+							trHTML=trHTML+"<img src=\"http://jwc.scu.edu.cn/upload/"+(list[i][5])+"\" alt=\"\" class=\"list-llc-img\"/>";
+							trHTML=trHTML+"<div class=\"list-llc-box\" title="+(list[i][1])+">";
+							trHTML=trHTML+"<h3><a href=\"http://jwc.scu.edu.cn/detail/"+(list[i][4])+"/"+(list[i][0])+".htm\">"+(list[i][1])+"</a></h3>";
+							trHTML=trHTML+"</div>";
+							trHTML=trHTML+"</li>";
+						}
+						if(list.length==0){
+							trHTML=trHTML+"<<li>";
+							trHTML=trHTML+"	<h3>更新中</h3>";
+							trHTML=trHTML+"</li>";
+						}
+						$("#Tab1").html(trHTML);//在table最后面添加一行
+
+					}
+				})
+			}
+			loadJsonp();
+	</SCRIPT>
+
+                    </ul>
+                    <ul class="list-llc-two">
+                        <div class="edit_option">
+                            <div class="edit_cz"><a href="javascript:void(0)" onclick="parent.edit('XWCS','05')">编辑</a> </div>
+
+    <li class="text-over" title=【四川大学新时代本科教育改革与发展大讨论】系列——“教材建设与选用”研讨会>
+     <!--置顶-->
+    <a target="_blank" title="【四川大学新时代本科教育改革与发展大讨论】系列——“教材建设与选用”研讨会" href="http://jwc.scu.edu.cn/detail/102/6864.htm"><em style="font-style: normal;color:#bc0102">【置顶】</em>【四川大学新时代本科教育改革与发展大...</a>
+    
+    </li>
+    <li class="text-over" title=【新时代本科教育改革与发展大讨论】系列—— 四川大学通识教育课程建设与教学研讨会成功召开>
+     <!--置顶-->
+    <a target="_blank" title="【新时代本科教育改革与发展大讨论】系列—— 四川大学通识教育课程建设与教学研讨会成功召开" href="http://jwc.scu.edu.cn/detail/101/6860.htm"><em style="font-style: normal;color:#bc0102">【置顶】</em>【新时代本科教育改革与发展大讨论】系...</a>
+    
+    </li>
+    <li class="text-over" title=【新时代本科教育改革与发展研讨会】系列—华西药学院 基层教研组织汇报会成功举办>
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/100/6917.htm">【新时代本科教育改革与发展研讨会】系列—华...</a>
+    
+    </li>
+    <li class="text-over" title=平安留学·高效学习·高端职业发展经验交流会成功举办>
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/204/6914.htm">平安留学·高效学习·高端职业发展经验交流会...</a>
+    
+    </li>
+    <li class="text-over" title=【新时代本科教育改革与发展研讨会】系列—法学院召开本科教育工作会暨新时代本科教育改革与发展大讨论调研座谈会>
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/100/6912.htm">【新时代本科教育改革与发展研讨会】系列—法...</a>
+    
+    </li>
+    <li class="text-over" title=全国大学英语四六级口语考试（CET-SET）在我校成功举行>
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/116/6906.htm">全国大学英语四六级口语考试（CET-SET...</a>
+    
+    </li>
+    <li class="text-over" title=【新时代本科教育改革与发展研讨会】系列—马克思主义学院召开本科教育改革与发展大讨论 暨思政课堂革命大讨论>
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/100/6905.htm">【新时代本科教育改革与发展研讨会】系列—马...</a>
+    
+    </li>
+    <li class="text-over" title=【新时代本科教育改革与发展研讨会】系列—华西药学院召开工作部署会>
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/100/6903.htm">【新时代本科教育改革与发展研讨会】系列—华...</a>
+    
+    </li>
+    <li class="text-over" title=祝贺我校学子在2019年全国大学生英语竞赛（NECCS）决赛获得佳绩>
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/159/6899.htm">祝贺我校学子在2019年全国大学生英语竞赛...</a>
+    
+    </li>
+    <li class="text-over" title=【新时代本科教育改革与发展研讨会】系列—商学院组织系列大讨论>
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/100/6890.htm">【新时代本科教育改革与发展研讨会】系列—商...</a>
+    
+    </li>
+    <li class="text-over" title=【新时代本科教育改革与发展研讨会】系列—华西基础医学与法医学院举行大讨论会>
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/100/6887.htm">【新时代本科教育改革与发展研讨会】系列—华...</a>
+    
+    </li>
+    <li class="text-over" title=“信息融合”“广度学习”，清华特聘教授与我校师生共同走进大数据时代>
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/107/6888.htm">“信息融合”“广度学习”，清华特聘教授与我...</a>
+    
+    </li>
+    <li class="text-over" title=【新时代本科教育改革与发展研讨会】系列—华西基础医学与法医学院召开工作部署会>
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/100/6886.htm">【新时代本科教育改革与发展研讨会】系列—华...</a>
+    
+    </li>
+    <li class="text-over" title=【新时代本科教育改革与发展研讨会】系列—化工学院召开工作部署会>
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/100/6884.htm">【新时代本科教育改革与发展研讨会】系列—化...</a>
+    
+    </li>
+    <li class="text-over" title=【新时代本科教育改革与发展研讨会】系列—建筑与环境学院召开专题研讨会>
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/100/6882.htm">【新时代本科教育改革与发展研讨会】系列—建...</a>
+    
+    </li>
+    <li class="text-over" title=【新时代本科教育改革与发展研讨会】系列—计算机学院工作布置会成功召开>
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/100/6876.htm">【新时代本科教育改革与发展研讨会】系列—计...</a>
+    
+    </li>
+    <li class="text-over" title=【新时代本科教育改革与发展研讨会】系列—热议讨论课教学>
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/100/6875.htm">【新时代本科教育改革与发展研讨会】系列—热...</a>
+    
+    </li>
+    <li class="text-over" title=【新时代本科教育改革与发展研讨会】系列—临床实习教学座谈会>
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/100/6874.htm">【新时代本科教育改革与发展研讨会】系列—临...</a>
+    
+    </li>
+    <li class="text-over" title=【新时代本科教育改革与发展研讨会】系列—海外教育学院召开工作部署会>
+        <a target="_blank" href="http://jwc.scu.edu.cn/detail/100/6879.htm">【新时代本科教育改革与发展研讨会】系列—海...</a>
+    
+    </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+        <div class="list-ll-a" style="margin-left: 20px">
+            <div class="list-lla-sup" style="height:390px;">
+               <div class="list-lla-href list-boxs-list" style="background: url('http://jwc.scu.edu.cn/images/a-1.jpg') no-repeat center;background-size: cover;">
+<a href="http://jwc.scu.edu.cn/article/206/206_1.htm"></a>
+</div>
+            <div class="list-lla-href" style="background: url('http://jwc.scu.edu.cn/images/a-2.jpg') no-repeat center;background-size: cover;"><a target="_blank" href="http://jwc.scu.edu.cn/scdx/zxsj.html"></a></div>
+            <div class="list-lla-href" style="background: url('http://jwc.scu.edu.cn/images/a-3.jpg') no-repeat center;background-size: cover;"><a target="_blank" href="http://jwc.scu.edu.cn/scdx/skb.html"></a></div>
+<div class="list-lla-href" style="background: url('http://jwc.scu.edu.cn/images/a-5.jpg') no-repeat center;background-size: cover;"><a target="_blank" href="http://zhjwjs.scu.edu.cn/teacher/personalSenate/giveLessonInfo/thisSemesterClassSchedule/indexPublic"></a></div>
+<div class="list-lla-href" style="background: url('http://jwc.scu.edu.cn/images/a-4.jpg') no-repeat center;background-size: cover;"><a target="_blank" href="http://jwc.scu.edu.cn/detail/187/4310.htm"></a></div>
+<!--<div class="list-lla-href" style="background: url('http://jwc.scu.edu.cn/images/a-6.jpg') no-repeat center;background-size: cover;"><a target="_blank" href="http://zhjw.scu.edu.cn"></a></div>-->
+            </div>
+            <div class="list-lla-sub" style="height:425px">
+                <h5 class="list-lla-tit">教师服务</h5>
+                <dl class="list-lla-txt">
+<dd><a href="http://zhjwjs.scu.edu.cn" target="_blank"><i class="fa fa-database"></i>综合教务系统-教师端</a></dd>
+<dd><a href="http://zhjwjs.scu.edu.cn" target="_blank"><i class="fa fa-bar-chart-o"></i>成绩登录</a></dd>
+                    <dd><a href="http://cc.scu.edu.cn" target="_blank"><i class="fa fa-user" ></i>课程中心</a></dd>
+                    
+                    <dd><a href="http://jwc.scu.edu.cn/article/102/102_1.htm" target="_blank"><i class="fa fa-server"></i>教材征订</a></dd>
+                    
+                </dl>
+            </div>
+<div class="img-bots"><h5 style="margin-top:0;"><a href="http://jwc.scu.edu.cn//article/203/203_1.htm"><img src="http://jwc.scu.edu.cn/images/xtrk.png" /></a></h5></div>
+        </div>
+</div>
+<iframe scrolling="no" frameborder="0" name="iframename0" id="iframename0"
+        src=""
+        style="width:100%;min-height:70%;display:none"></iframe>
+<!--系统登录-->
+<div class="login-sub">
+    <div class="login-sub-main">
+        <h5>系统登录</h5>
+        <div class="login-sub-list">
+<div class="edit_option">
+                <div class="edit_cz"><a href="javascript:void(0)" onclick="parent.edit('XWC','06')">编辑</a> </div>
+      <a target="_blank" href="http://jwc.scu.edu.cn/detail/195/6171.htm">中英文课程简介</a>
+      <a target="_blank" href="http://jwc.scu.edu.cn/article/207/207_1.htm">国际课程周</a>
+        </div>
+        </div>
+    </div>
+
+</div>
+<!--页面尾部-->
+<div class="footer-a">
+    <div>
+        <div class="footer-b">
+            <ul class="footer-main">
+                <li class="footer-main-a">
+                    <h5>学校地址</h5>
+                    <p>（望江校区）成都市一环路南一段24号 川大行政楼219、220办公室 邮编：610065</p>
+                    <p>（江安校区）成都市双流县川大路 川大行政楼一楼 邮编：610207</p>
+                    <p>（华西校区）成都市人民南路三段17号 华西行政楼232 邮编：610041</p>
+
+                </li>
+
+                <li class="footer-main-b">
+                    <h5>友情链接</h5>
+                    <div class="edit_option">
+                        <div class="edit_cz"><a href="javascript:void(0)" onclick="parent.edit('LJ','07')">编辑</a> </div>
+<div class="footer-main-box">
+      <a href="http://www.moe.edu.cn/" target="_blank">教育部网站</a>
+      <a href="http://www.scedu.net/" target="_blank">四川省教育厅</a>
+                    </div>
+                </li>
+
+                <li class="footer-main-c">
+                    <h5>内部链接</h5>
+                    <div class="edit_option">
+                        <div class="edit_cz"><a href="javascript:void(0)" onclick="parent.edit('NC','08')">编辑</a> </div>
+<div class="footer-main-boxs">
+<a href="http://cta.scu.edu.cn/"><img src="http://jwc.scu.edu.cn/upload/1524036231636icon8.jpg" alt=""></a>
+<a href="http://www.scu.edu.cn/wyzxy/"><img src="http://jwc.scu.edu.cn/upload/1524036429514icon9.jpg" alt=""></a>
+<a href="http://metc.scu.edu.cn/"><img src="http://jwc.scu.edu.cn/upload/1524036485943icon7.jpg" alt=""></a>
+<a href="#"><img src="http://jwc.scu.edu.cn/upload/15240367261411512452189351icon1.jpg" alt=""></a>
+<a href="http://jwc.scu.edu.cn/article/172/172_1.htm"><img src="http://jwc.scu.edu.cn/upload/1524036512587icon5.jpg" alt=""></a>
+<a href="#"><img src="http://jwc.scu.edu.cn/upload/1524036529301icon6.jpg" alt=""></a>
+<a href="http://jwc.scu.edu.cn/detail/195/6171.htm"><img src="http://jwc.scu.edu.cn/upload/1524036544251icon3.jpg" alt=""></a>
+<a href="http://cc.scu.edu.cn/G2S/Showsystem/Index.aspx"><img src="http://jwc.scu.edu.cn/upload/1524036555787icon4.jpg" alt=""></a>
+<a href="http://jwc.scu.edu.cn//article/169/169_1.htm"><img src="http://jwc.scu.edu.cn/upload/1524036569306icon2.jpg" alt=""></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="edit_option">
+        <div class="edit_cz"><a href="javascript:void(0)" onclick="parent.edit('BQ','09')">编辑</a> </div>
+
+<div class="footer-bottom"><div>
+<div>四川大学教务处 版权所有</div>
+</div></div>
+    </div>
+</div>
+<!--<script src="http://jwc.scu.edu.cn/js/jquery.SuperSlide.2.1.1.js"></script>-->
+<script src="http://jwc.scu.edu.cn/js/schedule.js"></script>
+<script src="http://jwc.scu.edu.cn/js/base.js"></script>
+<script>
+//    jQuery(".main-banner").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true});
+    var mySchedule = new Schedule({
+        el: '#schedule-box',
+        //date: '2018-9-20',
+        clickCb: function (y,m,d) {
+		     var _d = y+'-'+m+'-'+d;
+			 loadXllmb(_d);
+            //document.querySelector('#h3Ele').innerHTML = '日期：'+y+'-'+m+'-'+d
+        },
+        nextMonthCb: function (y,m,d) {
+            //document.querySelector('#h3Ele').innerHTML = '日期：'+y+'-'+m+'-'+d
+        },
+        nextYeayCb: function (y,m,d) {
+            //document.querySelector('#h3Ele').innerHTML = '日期：'+y+'-'+m+'-'+d
+        },
+        prevMonthCb: function (y,m,d) {
+            //document.querySelector('#h3Ele').innerHTML = '日期：'+y+'-'+m+'-'+d
+        },
+        prevYearCb: function (y,m,d) {
+            //document.querySelector('#h3Ele').innerHTML = '日期：'+y+'-'+m+'-'+d
+        }
+    });
+function getNowFormatDate() {
+    var date = new Date();
+    var seperator1 = "-";
+    var seperator2 = ":";
+    var month = date.getMonth() + 1;
+    var strDate = date.getDate();
+    if (month >= 1 && month <= 9) {
+        month = "0" + month;
+    }
+    if (strDate >= 0 && strDate <= 9) {
+        strDate = "0" + strDate;
+    }
+    var currentdate = date.getFullYear() + seperator1 + month + seperator1 + strDate;
+    return currentdate;
+}	
+$(function(){
+	loadXllmb(getNowFormatDate());
+}) 
+function loadXllmb(_d){
+   $.ajax({
+	 url : 'http://202.115.35.11:80/websites/cms/queryXwbByrq',
+	 data:{lmid:'264',xssl:'4',date:_d},
+	 dataType:'jsonp',
+	 jsonp:'callback',
+	 success : function(json){
+	  $('#zc').html(json.zc);
+	 }    
+  });
+}	
+</script>
+</body>
+</html>
